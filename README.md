@@ -8,6 +8,7 @@ Note-
 Images into which text is encoded MUST be in png format as JPEG compression will corrupt the encoded data.
 The high resolution of the image, the more data can be inserted.
 If a non-steganographic image is attempted to be decoded, giberrish will be created.
+There is an occasional issue with quotations and with single quotes where there are not supported by 8-bit encoding (UTF-8) so they may come out corrupted.
 
 Some terminology-
 Where cryptography is the practice of hiding information in gibberish that is obvious to a person but inaccessible, steganography hides data in plain sight but the user does not know that they are looking at hidden information. 
