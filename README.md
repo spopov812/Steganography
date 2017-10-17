@@ -25,3 +25,10 @@ When provided a text file and an image, the program will calculate the amount of
 
 Decode-
 When provided an image, the program reads the size of the text fil it is supposed to create from the first 6 pixels. Knowing that and the size of the image, it can deduce the interval at which pixels are encoded and starts decoding starting from the 7th pixel and moving over the amount specified by the interval. It then writes the decoded data to a file.
+
+
+To Compile-
+$ javac -d bin src/my/project/Steganography/*.java
+
+To Run-
+$ java -cp bin my.project.Steganography.Steganography
